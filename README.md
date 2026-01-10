@@ -263,69 +263,6 @@ DIVIDE(
 
 ---
 
-## 📈 Dashboard Components
-
-### 1. KPI Cards (Top Metrics)
-Four color-coded cards displaying key metrics:
-- **Purple-Blue Gradient:** Total Universities (6K)
-- **Pink-Red Gradient:** Average Retention Rate (72.60%)
-- **Cyan-Blue Gradient:** Weighted Retention (74.50%)
-- **Green-Turquoise Gradient:** High Performers (49.21%)
-
-**Design Features:**
-- Bold, large font for values (42pt)
-- Descriptive labels with clear context
-- Shadow effects for visual depth
-- Consistent sizing and spacing
-
-### 2. Retention Rate Distribution Chart
-**Type:** Vertical Column Chart  
-**Purpose:** Shows the distribution of universities across retention rate ranges
-
-**Key Features:**
-- Color-coded bars from red (low) to purple (high retention)
-- Clear axis labels and gridlines
-- Data labels on each bar
-- 7 retention brackets (0-10% through 60-70%)
-
-**Insights:**
-- Most universities (1,101) fall in the 60-70% range
-- Only 65 universities have critically low (<10%) retention
-- Distribution skews toward higher retention rates
-
-### 3. Total Enrollment by Demographics
-**Type:** Clustered Column Chart  
-**Purpose:** Compare enrollment across race and gender categories
-
-**Key Features:**
-- Side-by-side bars for Male (Blue) and Female (Red)
-- Clear category labels on X-axis
-- Y-axis scaled in millions
-- Legend positioned at top
-
-**Insights:**
-- Race Category 1 has highest enrollment (9.5M total)
-- Female enrollment consistently exceeds male across most categories
-- Significant demographic concentration in top 3 categories
-
-### 4. Enrollment Size vs Retention Rate Scatter Plot
-**Type:** Scatter Plot with Color Coding  
-**Purpose:** Analyze correlation between institutional size and retention
-
-**Key Features:**
-- X-axis: Total Fall Enrollment
-- Y-axis: First-Year Retention Rate (0-100%)
-- Color coding by performance:
-  - 🔴 Red: Low (<30%)
-  - 🟠 Orange: Medium (30-50%)
-  - 🔵 Blue: Good (50-70%)
-  - 🟢 Green: Excellent (≥70%)
-- Trend line showing positive correlation
-
-**Insights:**
-- Larger institutions tend to have higher retention rates
-- Smaller schools show greater variability in performance
-- Clear positive correlation between size and retention
 
 ---
 
@@ -561,41 +498,10 @@ High Performers (≥70%): 49.21%
 
 ---
 
-## 🤝 Contributing
 
-This project is part of a portfolio demonstration. For questions or suggestions:
-- Open an issue for bugs or feature requests
-- Fork the repository for your own analysis
-- Cite this project if using in academic work
-
----
-
-## 📄 License
-
-This project uses publicly available IPEDS data from the U.S. Department of Education. The data is in the public domain. Analysis and code are provided as-is for educational and portfolio purposes.
-
----
-
-## 📧 Contact
-
-For questions about this project or collaboration opportunities, please reach out via:
-- LinkedIn: [Your Profile]
-- Email: [Your Email]
-- Portfolio: [Your Website]
-
----
-
-## 🙏 Acknowledgments
-
-- **U.S. Department of Education** - For providing comprehensive IPEDS data
-- **National Center for Education Statistics** - For maintaining the IPEDS database
-- **Power BI Community** - For DAX patterns and best practices
-- **SQL Server Community** - For data modeling guidance
-
----
 
 **⭐ If you found this project helpful, please consider giving it a star!**
 
 ---
 
-*Last Updated: January 2026*
+
