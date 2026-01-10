@@ -206,6 +206,10 @@ WHERE total_enrollment IS NOT NULL
 4. **Visualizations** - Built interactive dashboard components
 5. **Formatting** - Applied professional styling and color schemes
 
+## Dashboard Preview
+
+![Dashboard Overview](Images/Dashboard_screenshot.png)
+
 ---
 
 ## 📊 Key Performance Indicators
